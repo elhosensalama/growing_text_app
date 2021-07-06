@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4));
+    padding: 200px;
+}
+
+.cons {
+    background: linear-gradient(#EB4D4D, darkred);
+    padding: 50px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cons .main-heading {
+    color: white;
+    font-size: 30px;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.4) ;
+}
